@@ -1,0 +1,17 @@
+@media (max-width: 680px) {
+    #wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px) {
+    #wrapper {
+        gap: 30px;
+    }
+
+    #form {
+        height: 380px;
+        width: 300px;
+        padding: 20px;
+    }
+}
